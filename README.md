@@ -41,8 +41,8 @@ Detect *eating, drinking, lying, moving,* and *standing* behaviors of pigs from 
 ### 1 · Clone the repository
 
 ```bash
-[git clone https://github.com/Priyanshu9898/pig-behavior-detection.git](https://github.com/Priyanshu9898/Pig-Behavior-Detection.git)
-cd pig-behavior-detection
+https://github.com/Priyanshu9898/Pig-Behavior-Detection.git
+cd Pig-Behavior-Detection
 ```
 
 ### 2 · Create & activate a virtual environment
@@ -56,7 +56,6 @@ cd pig-behavior-detection
 
 ```bash
 pip install -r requirements.txt             # runtime
-pip install -r requirements-dev.txt         # lint / tests (optional)
 ```
 
 ### 4 · Download & unpack the dataset

@@ -104,12 +104,12 @@ During inference, the code reads each video frame, applies YOLO every frame to d
 - Opens the color video, crops each pig’s bounding box per frame, and saves crops into `data_crops/{train,val}/{behaviour}/`.
 - Builds a **CSV manifest** (`manifest.csv`) listing every crop path and its label.
 
-### 2. Posture Model Training *(ResNet‑18)*
+### 2. Posture Model Training *(ResNet‑50)*
 - Loads the manifest and filters to **lying** vs **standing** examples.
 - Splits into train/val folds **by clip ID** to avoid leakage.
 - Computes class‑balanced **sampler** weights *and* **loss** weights.
 - Applies heavy data augmentation: random crop, flip, rotation, color‑jitter, random erasing.
-- Fine‑tunes a **pre‑trained ResNet‑18** (2‑class head) with mixed precision, cosine LR scheduler, and early stopping.
+- Fine‑tunes a **pre‑trained ResNet‑50** (2‑class head) with mixed precision, cosine LR scheduler, and early stopping.
 - Logs train/val loss & accuracy each epoch and saves the **best checkpoint**.
 
 ### 3. Object Detector Training *(YOLOv8)*

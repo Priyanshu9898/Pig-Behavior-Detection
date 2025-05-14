@@ -83,3 +83,22 @@ mkdir -p data
 # Manually place annoted.tar inside data/ then
 tar -xf data/annoted.tar -C data/
 ```
+
+## 📝 Notebook: `yolo_training.ipynb`
+
+`yolo_training.ipynb` is an **interactive, step‑by‑step notebook** that mirrors the CLI workflow for users who prefer a Jupyter interface:
+
+1. **Environment Setup** – Installs the required libraries and checks CUDA availability.
+2. **Data Prep** – Extracts `annoted.tar`, applies the train/val split, and converts labels to YOLOv8 format.
+3. **Model Config** – Loads the YOLOv8‑small backbone, freezes early layers, and attaches a GRU head for temporal reasoning.
+4. **Training Loop** – Trains for 100 epochs with mixed precision, cosine LR scheduling, and real‑time TensorBoard.
+5. **Checkpoint Export** – Saves the best model to `weights/model.pt`.
+6. **Quick Validation** – Runs inference on the validation set and prints `accuracy.txt`.
+
+
+
+## 🤝 Contributing & License
+
+PRs and issues are welcome! Code is released under the MIT License – see `LICENSE`.  
+
+---

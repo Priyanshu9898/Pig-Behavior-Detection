@@ -86,16 +86,55 @@ tar -xf data/annoted.tar -C data/
 
 ## 📝 Notebook: `yolo_training.ipynb`
 
-`yolo_training.ipynb` is an **interactive, step‑by‑step notebook** that mirrors the CLI workflow for users who prefer a Jupyter interface:
-
+`yolo_training.ipynb` is for training yolo model.
 1. **Environment Setup** – Installs the required libraries and checks CUDA availability.
 2. **Data Prep** – Extracts `annoted.tar`, applies the train/val split, and converts labels to YOLOv8 format.
-3. **Model Config** – Loads the YOLOv8‑small backbone, freezes early layers, and attaches a GRU head for temporal reasoning.
-4. **Training Loop** – Trains for 100 epochs with mixed precision, cosine LR scheduling, and real‑time TensorBoard.
+3. **Model Config** – Loads the YOLOv8‑small backbone.
+4. **Training Loop** – Trains for 50 epochs.
 5. **Checkpoint Export** – Saves the best model to `weights/model.pt`.
 6. **Quick Validation** – Runs inference on the validation set and prints `accuracy.txt`.
 
+## 📝 Notebook: `Complete_Pipeline.ipynb`
+During inference, the code reads each video frame, applies YOLO every frame to detect pigs, tracks each detection over time with a lightweight MOSSE tracker, and—on the fly—classifies posture and uses simple motion and orientation heuristics to decide “moving,” “eating,” or “drinking” when appropriate. Finally, it assembles each pig’s per-frame labels into the required JSON format, writes out an accuracy report comparing predictions to the ground‐truth output.json files, and computes AP, TP, FP, and miss rates for each clip and overall.e.
 
+## 🔍 Detailed Pipeline Overview
+
+### 1. Frame Cropping & Manifest Creation
+- Reads each clip’s **`output.json`** to map annotated (every‑third) frames → raw frames.
+- Opens the color video, crops each pig’s bounding box per frame, and saves crops into `data_crops/{train,val}/{behaviour}/`.
+- Builds a **CSV manifest** (`manifest.csv`) listing every crop path and its label.
+
+### 2. Posture Model Training *(ResNet‑18)*
+- Loads the manifest and filters to **lying** vs **standing** examples.
+- Splits into train/val folds **by clip ID** to avoid leakage.
+- Computes class‑balanced **sampler** weights *and* **loss** weights.
+- Applies heavy data augmentation: random crop, flip, rotation, color‑jitter, random erasing.
+- Fine‑tunes a **pre‑trained ResNet‑18** (2‑class head) with mixed precision, cosine LR scheduler, and early stopping.
+- Logs train/val loss & accuracy each epoch and saves the **best checkpoint**.
+
+### 3. Object Detector Training *(YOLOv8)*
+- Converts ground‑truth boxes to YOLO TXT under `yolo/images/{train,val}` & `yolo/labels/{train,val}`.
+- Writes `data.yaml` (1 class: *pig*) and trains a YOLOv8 detector.
+- Exports best `.pt` weights and optionally **ONNX** for deployment.
+
+### 4. Inference Pipeline (per clip)
+**a. Pen Mask Reconstruction** – thresholds `background.png` to obtain the usable‑pen binary mask.
+
+**b. Detection & Tracking** – runs YOLO on each resized frame; retains detections whose centroids fall **inside** the mask and maintains **MOSSE trackers** to bridge gaps.
+
+**c. On‑the‑fly Behavior Classification**  
+• **Moving:** compares centroid displacement over 2 s (via `depth_scale`) against a cm threshold.  
+• **Eating / Drinking:** uses image‑moment orientation to check alignment toward feeder vs waterer coordinates.  
+• **Lying / Standing:** batches crops through the ResNet posture model for posture prediction.
+
+**d. JSON Export** – collates each tracklet’s per‑frame behavior changes into the required **`output.json`** format.
+
+### 5. Evaluation & Reporting
+- Compares each predicted JSON against ground truth per clip.
+- Computes **AP**, *true‑positive %*, *false‑positive %*, and *missed‑detection %* for each sequence and overall.
+- Writes an **`accuracy.txt`** summary matching Table 2 of the paper.
+
+---
 
 ## 🤝 Contributing & License
 

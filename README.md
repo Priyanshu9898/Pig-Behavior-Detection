@@ -34,4 +34,35 @@ Detect *eating, drinking, lying, moving,* and *standing* behaviors of pigs from 
 
 ---
 
-## 🏗️ Project Structure
+## 🚀 Project Setup
+
+> **Prerequisites**  ‑ Python ≥ 3.10 • Git • (Optional) NVIDIA GPU w/ CUDA 11+
+
+### 1 · Clone the repository
+
+```bash
+[git clone https://github.com/Priyanshu9898/pig-behavior-detection.git](https://github.com/Priyanshu9898/Pig-Behavior-Detection.git)
+cd pig-behavior-detection
+```
+
+### 2 · Create & activate a virtual environment
+
+| OS            | Command                                                      |
+|---------------|--------------------------------------------------------------|
+| macOS / Linux | `python -m venv env && source env/bin/activate`              |
+| Windows PS    | `python -m venv env; .\env\Scripts\Activate.ps1`            |
+
+### 3 · Install dependencies
+
+```bash
+pip install -r requirements.txt             # runtime
+pip install -r requirements-dev.txt         # lint / tests (optional)
+```
+
+### 4 · Download & unpack the dataset
+
+```bash
+mkdir -p data
+# Manually place annoted.tar inside data/ then
+tar -xf data/annoted.tar -C data/
+```

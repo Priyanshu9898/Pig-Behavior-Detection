@@ -1,8 +1,26 @@
 # 🐷 Pig Behavior Detection System
 
+<p align="center">
+  <a href="https://github.com/Priyanshu9898/Pig-Behavior-Detection/stargazers"><img src="https://img.shields.io/github/stars/<your-user>/pig-behavior-detection?style=for-the-badge" alt="Stars"></a>
+  <a href="https://github.com/Priyanshu9898/Pig-Behavior-Detection/network/members"><img src="https://img.shields.io/github/forks/<your-user>/pig-behavior-detection?style=for-the-badge" alt="Forks"></a>
+  <a href="https://github.com/Priyanshu9898/Pig-Behavior-Detection/issues"><img src="https://img.shields.io/github/issues/<your-user>/pig-behavior-detection?style=for-the-badge" alt="Issues"></a>
+  <a href="https://github.com/Priyanshu9898/Pig-Behavior-Detection/blob/main/LICENSE"><img src="https://img.shields.io/github/license/<your-user>/pig-behavior-detection?style=for-the-badge" alt="License"></a>
+</p>
+
+
 Detect *eating, drinking, lying, moving,* and *standing* behaviors of pigs from video‑frame sequences recorded in commercial pens.
 
 ---
+
+## 🛠 Tech Stack
+
+| Layer | Technology | Badge |
+|-------|------------|-------|
+| Language | Python 3.10+ | ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white) |
+| CV Model | Ultralytics YOLOv8 | ![YOLOv8](https://img.shields.io/badge/YOLOv8-ultralytics-orange) |
+| DL Framework | PyTorch 2.2 (+ CUDA 11.x) | ![PyTorch](https://img.shields.io/badge/PyTorch-2.2-EE4C2C?logo=pytorch&logoColor=white) |
+| Libraries | OpenCV 4.9, NumPy, TQDM | ![OpenCV](https://img.shields.io/badge/OpenCV-4.9-blueviolet?logo=opencv&logoColor=white) |
+
 
 ## 🎯 Goals
 | # | Objective |
@@ -41,7 +59,7 @@ Detect *eating, drinking, lying, moving,* and *standing* behaviors of pigs from 
 ### 1 · Clone the repository
 
 ```bash
-https://github.com/Priyanshu9898/Pig-Behavior-Detection.git
+git clone https://github.com/Priyanshu9898/Pig-Behavior-Detection.git
 cd Pig-Behavior-Detection
 ```
 

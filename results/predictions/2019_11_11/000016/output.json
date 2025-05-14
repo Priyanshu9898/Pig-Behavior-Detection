@@ -1,0 +1,14 @@
+{
+  "videoFileName": "color.mp4",
+  "fullVideoFilePath": "2019_11_11/000016/",
+  "stepSize": 0.16666666666666666,
+  "config": {
+    "stepSize": 0.16666666666666666,
+    "playbackRate": 0.4,
+    "imageMimeType": "image/jpeg",
+    "imageExtension": ".jpg",
+    "framesZipFilename": "extracted-frames.zip",
+    "consoleLog": false
+  },
+  "objects": []
+}

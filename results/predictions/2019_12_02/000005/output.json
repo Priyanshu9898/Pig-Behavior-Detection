@@ -1,0 +1,724 @@
+{
+  "videoFileName": "color.mp4",
+  "fullVideoFilePath": "2019_12_02/000005/",
+  "stepSize": 0.16666666666666666,
+  "config": {
+    "stepSize": 0.16666666666666666,
+    "playbackRate": 0.4,
+    "imageMimeType": "image/jpeg",
+    "imageExtension": ".jpg",
+    "framesZipFilename": "extracted-frames.zip",
+    "consoleLog": false
+  },
+  "objects": [
+    {
+      "id": "1",
+      "frames": [
+        {
+          "frameNumber": 1,
+          "bbox": {
+            "x": 187,
+            "y": 273,
+            "width": 177,
+            "height": 321
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "eat"
+        },
+        {
+          "frameNumber": 2,
+          "bbox": {
+            "x": 178,
+            "y": 269,
+            "width": 216,
+            "height": 360
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "standing"
+        },
+        {
+          "frameNumber": 2,
+          "bbox": {
+            "x": 172,
+            "y": 265,
+            "width": 216,
+            "height": 360
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "eat"
+        },
+        {
+          "frameNumber": 8,
+          "bbox": {
+            "x": 184,
+            "y": 274,
+            "width": 192,
+            "height": 360
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "standing"
+        },
+        {
+          "frameNumber": 19,
+          "bbox": {
+            "x": 180,
+            "y": 272,
+            "width": 192,
+            "height": 360
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "eat"
+        },
+        {
+          "frameNumber": 23,
+          "bbox": {
+            "x": 180,
+            "y": 272,
+            "width": 192,
+            "height": 360
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "standing"
+        },
+        {
+          "frameNumber": 35,
+          "bbox": {
+            "x": 180,
+            "y": 272,
+            "width": 192,
+            "height": 360
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "eat"
+        },
+        {
+          "frameNumber": 39,
+          "bbox": {
+            "x": 180,
+            "y": 272,
+            "width": 192,
+            "height": 360
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "standing"
+        },
+        {
+          "frameNumber": 39,
+          "bbox": {
+            "x": 180,
+            "y": 272,
+            "width": 192,
+            "height": 360
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "eat"
+        },
+        {
+          "frameNumber": 48,
+          "bbox": {
+            "x": 180,
+            "y": 273,
+            "width": 192,
+            "height": 360
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "standing"
+        },
+        {
+          "frameNumber": 275,
+          "bbox": {
+            "x": 110,
+            "y": 238,
+            "width": 192,
+            "height": 360
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "eat"
+        },
+        {
+          "frameNumber": 276,
+          "bbox": {
+            "x": 110,
+            "y": 238,
+            "width": 192,
+            "height": 360
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "standing"
+        },
+        {
+          "frameNumber": 315,
+          "bbox": {
+            "x": 110,
+            "y": 238,
+            "width": 192,
+            "height": 360
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "eat"
+        },
+        {
+          "frameNumber": 315,
+          "bbox": {
+            "x": 110,
+            "y": 238,
+            "width": 192,
+            "height": 360
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "standing"
+        },
+        {
+          "frameNumber": 316,
+          "bbox": {
+            "x": 110,
+            "y": 238,
+            "width": 192,
+            "height": 360
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "eat"
+        },
+        {
+          "frameNumber": 316,
+          "bbox": {
+            "x": 110,
+            "y": 238,
+            "width": 192,
+            "height": 360
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "standing"
+        },
+        {
+          "frameNumber": 317,
+          "bbox": {
+            "x": 110,
+            "y": 238,
+            "width": 192,
+            "height": 360
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "eat"
+        },
+        {
+          "frameNumber": 340,
+          "bbox": {
+            "x": 110,
+            "y": 238,
+            "width": 192,
+            "height": 360
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "standing"
+        },
+        {
+          "frameNumber": 346,
+          "bbox": {
+            "x": 110,
+            "y": 238,
+            "width": 192,
+            "height": 360
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "eat"
+        },
+        {
+          "frameNumber": 348,
+          "bbox": {
+            "x": 110,
+            "y": 238,
+            "width": 192,
+            "height": 360
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "standing"
+        },
+        {
+          "frameNumber": 425,
+          "bbox": {
+            "x": 110,
+            "y": 238,
+            "width": 192,
+            "height": 360
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "eat"
+        },
+        {
+          "frameNumber": 429,
+          "bbox": {
+            "x": 110,
+            "y": 238,
+            "width": 192,
+            "height": 360
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "standing"
+        },
+        {
+          "frameNumber": 516,
+          "bbox": {
+            "x": 112,
+            "y": 238,
+            "width": 192,
+            "height": 360
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "eat"
+        },
+        {
+          "frameNumber": 518,
+          "bbox": {
+            "x": 112,
+            "y": 238,
+            "width": 192,
+            "height": 360
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "standing"
+        },
+        {
+          "frameNumber": 522,
+          "bbox": {
+            "x": 112,
+            "y": 238,
+            "width": 192,
+            "height": 360
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "eat"
+        },
+        {
+          "frameNumber": 527,
+          "bbox": {
+            "x": 112,
+            "y": 238,
+            "width": 192,
+            "height": 360
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "standing"
+        },
+        {
+          "frameNumber": 560,
+          "bbox": {
+            "x": 112,
+            "y": 238,
+            "width": 192,
+            "height": 360
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "eat"
+        },
+        {
+          "frameNumber": 560,
+          "bbox": {
+            "x": 112,
+            "y": 238,
+            "width": 192,
+            "height": 360
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "standing"
+        },
+        {
+          "frameNumber": 574,
+          "bbox": {
+            "x": 112,
+            "y": 238,
+            "width": 192,
+            "height": 360
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "eat"
+        },
+        {
+          "frameNumber": 577,
+          "bbox": {
+            "x": 112,
+            "y": 238,
+            "width": 192,
+            "height": 360
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "standing"
+        },
+        {
+          "frameNumber": 578,
+          "bbox": {
+            "x": 112,
+            "y": 238,
+            "width": 192,
+            "height": 360
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "eat"
+        },
+        {
+          "frameNumber": 595,
+          "bbox": {
+            "x": 112,
+            "y": 238,
+            "width": 192,
+            "height": 360
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "standing"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "frames": [
+        {
+          "frameNumber": 473,
+          "bbox": {
+            "x": 236,
+            "y": 348,
+            "width": 266,
+            "height": 345
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "standing"
+        },
+        {
+          "frameNumber": 518,
+          "bbox": {
+            "x": 208,
+            "y": 317,
+            "width": 291,
+            "height": 287
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "eat"
+        },
+        {
+          "frameNumber": 523,
+          "bbox": {
+            "x": 203,
+            "y": 145,
+            "width": 360,
+            "height": 270
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "drink"
+        },
+        {
+          "frameNumber": 524,
+          "bbox": {
+            "x": 238,
+            "y": 146,
+            "width": 323,
+            "height": 271
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "eat"
+        },
+        {
+          "frameNumber": 533,
+          "bbox": {
+            "x": 316,
+            "y": 183,
+            "width": 360,
+            "height": 225
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "drink"
+        },
+        {
+          "frameNumber": 537,
+          "bbox": {
+            "x": 315,
+            "y": 177,
+            "width": 353,
+            "height": 224
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "eat"
+        },
+        {
+          "frameNumber": 546,
+          "bbox": {
+            "x": 290,
+            "y": 181,
+            "width": 358,
+            "height": 221
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "drink"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "frames": [
+        {
+          "frameNumber": 531,
+          "bbox": {
+            "x": 553,
+            "y": 90,
+            "width": 235,
+            "height": 229
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "standing"
+        },
+        {
+          "frameNumber": 549,
+          "bbox": {
+            "x": 607,
+            "y": 103,
+            "width": 225,
+            "height": 250
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "drink"
+        },
+        {
+          "frameNumber": 552,
+          "bbox": {
+            "x": 692,
+            "y": 130,
+            "width": 191,
+            "height": 263
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "standing"
+        },
+        {
+          "frameNumber": 571,
+          "bbox": {
+            "x": 657,
+            "y": 146,
+            "width": 225,
+            "height": 250
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "eat"
+        },
+        {
+          "frameNumber": 572,
+          "bbox": {
+            "x": 659,
+            "y": 163,
+            "width": 224,
+            "height": 241
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "standing"
+        },
+        {
+          "frameNumber": 573,
+          "bbox": {
+            "x": 659,
+            "y": 170,
+            "width": 232,
+            "height": 228
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "drink"
+        },
+        {
+          "frameNumber": 582,
+          "bbox": {
+            "x": 660,
+            "y": 173,
+            "width": 243,
+            "height": 192
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "lying"
+        },
+        {
+          "frameNumber": 584,
+          "bbox": {
+            "x": 660,
+            "y": 173,
+            "width": 243,
+            "height": 192
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "drink"
+        },
+        {
+          "frameNumber": 597,
+          "bbox": {
+            "x": 660,
+            "y": 173,
+            "width": 243,
+            "height": 192
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "lying"
+        },
+        {
+          "frameNumber": 598,
+          "bbox": {
+            "x": 660,
+            "y": 173,
+            "width": 243,
+            "height": 192
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "drink"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "frames": [
+        {
+          "frameNumber": 559,
+          "bbox": {
+            "x": 525,
+            "y": 268,
+            "width": 186,
+            "height": 329
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "eat"
+        },
+        {
+          "frameNumber": 571,
+          "bbox": {
+            "x": 537,
+            "y": 277,
+            "width": 170,
+            "height": 314
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "standing"
+        },
+        {
+          "frameNumber": 571,
+          "bbox": {
+            "x": 539,
+            "y": 276,
+            "width": 180,
+            "height": 320
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "eat"
+        },
+        {
+          "frameNumber": 572,
+          "bbox": {
+            "x": 540,
+            "y": 306,
+            "width": 165,
+            "height": 288
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "standing"
+        },
+        {
+          "frameNumber": 577,
+          "bbox": {
+            "x": 535,
+            "y": 314,
+            "width": 180,
+            "height": 288
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "eat"
+        },
+        {
+          "frameNumber": 579,
+          "bbox": {
+            "x": 536,
+            "y": 313,
+            "width": 180,
+            "height": 288
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "standing"
+        },
+        {
+          "frameNumber": 582,
+          "bbox": {
+            "x": 536,
+            "y": 313,
+            "width": 180,
+            "height": 288
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "eat"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "frames": [
+        {
+          "frameNumber": 592,
+          "bbox": {
+            "x": 386,
+            "y": 332,
+            "width": 206,
+            "height": 298
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "standing"
+        }
+      ]
+    }
+  ]
+}

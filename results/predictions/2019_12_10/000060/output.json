@@ -1,0 +1,32 @@
+{
+  "videoFileName": "color.mp4",
+  "fullVideoFilePath": "2019_12_10/000060/",
+  "stepSize": 0.16666666666666666,
+  "config": {
+    "stepSize": 0.16666666666666666,
+    "playbackRate": 0.4,
+    "imageMimeType": "image/jpeg",
+    "imageExtension": ".jpg",
+    "framesZipFilename": "extracted-frames.zip",
+    "consoleLog": false
+  },
+  "objects": [
+    {
+      "id": "6",
+      "frames": [
+        {
+          "frameNumber": 553,
+          "bbox": {
+            "x": 466,
+            "y": 279,
+            "width": 177,
+            "height": 322
+          },
+          "isGroundTruth": false,
+          "visible": true,
+          "behaviour": "eat"
+        }
+      ]
+    }
+  ]
+}

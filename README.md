@@ -1,10 +1,10 @@
 # 🐷 Pig Behavior Detection System
 
 <p align="center">
-  <a href="https://github.com/Priyanshu9898/Pig-Behavior-Detection/stargazers"><img src="https://img.shields.io/github/stars/<your-user>/pig-behavior-detection?style=for-the-badge" alt="Stars"></a>
-  <a href="https://github.com/Priyanshu9898/Pig-Behavior-Detection/network/members"><img src="https://img.shields.io/github/forks/<your-user>/pig-behavior-detection?style=for-the-badge" alt="Forks"></a>
-  <a href="https://github.com/Priyanshu9898/Pig-Behavior-Detection/issues"><img src="https://img.shields.io/github/issues/<your-user>/pig-behavior-detection?style=for-the-badge" alt="Issues"></a>
-  <a href="https://github.com/Priyanshu9898/Pig-Behavior-Detection/blob/main/LICENSE"><img src="https://img.shields.io/github/license/<your-user>/pig-behavior-detection?style=for-the-badge" alt="License"></a>
+  <a href="https://github.com/Priyanshu9898/Pig-Behavior-Detection/stargazers"><img src="https://img.shields.io/github/stars/Priyanshu9898/Pig-Behavior-Detection?style=for-the-badge" alt="Stars"></a>
+  <a href="https://github.com/Priyanshu9898/Pig-Behavior-Detection/network/members"><img src="https://img.shields.io/github/forks/Priyanshu9898/Pig-Behavior-Detection?style=for-the-badge" alt="Forks"></a>
+  <a href="https://github.com/Priyanshu9898/Pig-Behavior-Detection/issues"><img src="https://img.shields.io/github/issues/Priyanshu9898/Pig-Behavior-Detection?style=for-the-badge" alt="Issues"></a>
+  <a href="https://github.com/Priyanshu9898/Pig-Behavior-Detection/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Priyanshu9898/Pig-Behavior-Detection?style=for-the-badge" alt="License"></a>
 </p>
 
 
